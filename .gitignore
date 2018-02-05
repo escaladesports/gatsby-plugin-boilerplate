@@ -27,6 +27,9 @@ dist-modules
 _optimize
 .babelrc
 .postcssrc
+./gatsby-node.js
+./gatsby-browser.js
+./gatsby-ssr.js
 
 # Temporary
 temp
