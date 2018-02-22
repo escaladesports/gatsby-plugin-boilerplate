@@ -1,12 +1,8 @@
 import { expect } from 'chai'
-const theModule = require('../dist/index')
+import { onRouteUpdate } from '../dist/gatsby-browser'
+import { onRenderBody } from '../dist/gatsby-ssr'
 
-console.log('MODULE:', theModule)
-
-describe('Default module', () => {
-	it('Should have content', () => {
-		const testVar = theModule()
-		expect(testVar).to.not.be.empty
-		expect(testVar.test).to.equal('123')
+describe('Gatsby plugins', () => {
+	it('should import', () => {
 	})
 })
