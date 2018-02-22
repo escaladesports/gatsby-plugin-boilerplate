@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "gatsby",
     "plugin",
@@ -18,8 +18,8 @@
     "build": "esca-scripts build --input src --output dist --multiple --react --babel",
     "prepublishOnly": "npm run build",
     "reset": "esca-scripts reset",
-	 "test": "npm run build && esca-scripts test",
-	 "travis": "opn https://travis-ci.org/escaladesports/gatsby-plugin-boilerplate/branches"
+    "test": "npm run build && esca-scripts test",
+    "travis": "opn https://travis-ci.org/escaladesports/gatsby-plugin-boilerplate/branches"
   },
   "devDependencies": {
     "esca-scripts": "^0.14.1",
