@@ -6,7 +6,7 @@
     "plugin",
     "boilerplate"
   ],
-  "main": "dist/index.js",
+  "main": "gatsby-browser.js",
   "author": "Kennedy Rose <krose@escaladesports.com>",
   "repository": {
     "type": "git",
